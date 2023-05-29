@@ -6,12 +6,20 @@
 
 
 body {
-    background-image: linear-gradient(to right, #5f5ac5, #4408c4 70%);
+    background-image: linear-gradient(to right, #5f5ac5, #4408c4 10%);
     margin: 0px
+    scroll-behavior: smooth;
 }
 
 header {
-    background-color: #121126a1;
+    background-color: #fbfbfb22;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    height: 70px;
+
 }
 .principal {
     display: flex;
@@ -71,7 +79,6 @@ a:hover {
 .perfil {
     margin-right: 30px;
 }
-30
 .loja {
     margin-right: 30px;
 }
@@ -82,12 +89,10 @@ main {
 
 
 
-
-
 .block1 {
     background-color: #121126;
     height: 14%;
-    width: 70%;
+    width: 80vh;
     margin: auto;
     border-radius: 10px;
     border: solid 2px #DB2EF2;
@@ -104,7 +109,7 @@ main {
 .block01 > .cima01 {
     display: flex;
     justify-content: space-between
-
+    
 }
 .cima01 > .perfil {
     display: flex;
@@ -120,7 +125,8 @@ main {
 .perfil > img {
     width: 70%;
     height: 70%;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 20px;
+
 }
 .perfil > #f {
     width: 70%;
@@ -189,10 +195,9 @@ main {
 .baixo01 > #p1 {
     margin: 10px 0px 5px 10px;
 }
-hr {
-    margin: 0px;
+.baixo01 > #p2 {
+    margin-left: 10px;
 }
-
-
--- 
-
+hr {
+    margin: 0px;
+}
