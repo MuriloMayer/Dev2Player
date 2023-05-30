@@ -1,0 +1,29 @@
+#opcoes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+#dev, #player{
+    background-color: purple;
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: purple;
+    width: 400px;
+    height: 100px;
+    text-align: center
+}
+#opcoes{ 
+    height: 80vh;
+    background-image: linear-gradient(to right, #121126, #190840 60%)
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 47px;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #121126, #190840 60%)
+}
